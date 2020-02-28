@@ -1,14 +1,15 @@
 import React from 'react';
-import Text from 'react-native';
+import { Text, View } from 'react-native';
 import Input from '../../components/Input';
-import Background from '../../components/Background';
+import Button from '../../components/Button';
+// import Background from '../../components/Background';
 
 export default function SignIn() {
-  const [username, setUsername] = React.useState('');
-  const [password, setPassword] = React.useState('');
+  // const [username, setUsername] = React.useState('');
+  // const [password, setPassword] = React.useState('');
 
   return (
-    <Background>
+    <View>
       <Text>SignIn</Text>
 
       <Input
@@ -17,6 +18,6 @@ export default function SignIn() {
         placeholder="Digite seu nome"
       />
       <Button>Entrar</Button>
-    </Background>
+    </View>
   );
 }
