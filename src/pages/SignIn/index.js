@@ -41,7 +41,9 @@ export default function SignIn({ navigation }) {
             secureTextEntry
             placeholder="Sua senha secreta"
           />
-          <SubmitButton onPress={() => {}}>Entrar</SubmitButton>
+          <SubmitButton onPress={() => navigation.navigate('Home')}>
+            Entrar
+          </SubmitButton>
         </Form>
         <SignLink onPress={() => navigation.navigate('SignUp')}>
           <SignLinkText>Crie sua conta grátis</SignLinkText>
