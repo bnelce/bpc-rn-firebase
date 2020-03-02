@@ -9,7 +9,7 @@ export default function SignIn() {
 
   return (
     <Background>
-      <Text>SignIn</Text>
+      <Text>SignInnnn</Text>
 
       <Input
         style={{ marginTop: 30 }}
